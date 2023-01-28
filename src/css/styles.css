@@ -18,3 +18,30 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+.country-list li{
+  display: flex;
+  align-items: center;
+}
+.country-list img{
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+.country-info{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+.country-info img{
+  height: 50px;
+  width: 75px;
+}
+.country-info p{
+  margin: 0;
+}
+.flagNameContainer{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
